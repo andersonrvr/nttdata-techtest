@@ -1,0 +1,29 @@
+@use "../../globalStyles.scss";
+
+.homeContainer {
+  background-color: globalStyles.$backgroundColor;
+  min-height: 94vh;
+  padding: 15px;
+  color: white;
+}
+
+@media (min-width: 700px) {
+  .homeContainer {
+    padding: 50px 50px;
+  }
+}
+@media (min-width: 850px) {
+  .homeContainer {
+    padding: 50px 100px;
+  }
+}
+@media (min-width: 1000px) {
+  .homeContainer {
+    padding: 50px 200px;
+  }
+}
+@media (min-width: 1200px) {
+  .homeContainer {
+    padding: 50px 300px;
+  }
+}
